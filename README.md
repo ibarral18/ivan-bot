@@ -6,20 +6,20 @@ bot creates a somewhat random sentence.
 
 TO ADD: 
 
-more sentence structures
+more sentence structures,
 
-randomized sentence selector
+randomized sentence selector,
 
-giving one sentence higher odds than another
+giving one sentence higher odds than another,
 
-TWITTER integration
+twitter integration.
 
 
 LATER:
 
-recognition of plurals, proper sentence structure for this.
+recognition of plurals, proper sentence structure for this,
 
-better nouns
+better nouns,
 
-more adjectives
+more adjectives,
 
