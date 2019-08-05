@@ -1,8 +1,11 @@
 import java.io.*;
 import java.util.*;
 class sentenceGen {
+  String noun;
+  String adjective;
   public sentenceGen (){
-
+    noun = "nouns.txt";
+    adjective = "adjectives.txt";
   }
 
   public String getRandomWord(String wordType){
@@ -26,7 +29,7 @@ class sentenceGen {
     }
 
     public void getSentence(){
-      System.out.println(getRandomWord(noun.txt) + " is so " + getRandomWord(noun.txt));
+      System.out.println(getRandomWord(noun) + " is so " + getRandomWord(adjective));
     }
 
 }
