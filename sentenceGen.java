@@ -18,14 +18,14 @@ class sentenceGen {
                 wordStorage.add(word);
               }
             }
-            Random r=new Random();
-            int randomNumber=r.nextInt(wordStorage.size());
-            return wordStorage.get(randomNumber);
         }
 
         catch(Exception e){
             System.out.println("File not found ! ");
         }
+            Random r = new Random();
+            int randomNumber = r.nextInt(wordStorage.size());
+            return wordStorage.get(randomNumber);
     }
 
     public void getSentence(){
