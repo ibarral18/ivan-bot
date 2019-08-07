@@ -9,7 +9,7 @@ class sentenceGen {
   }
 
   public String getRandomWord(String wordType){
-        public ArrayList<String> wordStorage =  new ArrayList<>();
+        ArrayList<String> wordStorage =  new ArrayList<>();
         try{
             File fileReader = new File(wordType);
             Scanner s = new Scanner(fileReader);
